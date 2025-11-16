@@ -5,44 +5,99 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Bootstrap demo</title>
         <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
-    <div class="navbar">
+    
 
+    
+    
+    <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">Meu portifólio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
+
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-    </ul>
-</div>
-</div>
-</nav>
-</div>
+    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Projetos</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Contatos</a></li>
+    <!-- <li class="nav-item"><a class="nav-link disabled" aria-disabled="true">Disabled</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+                
+    
+    
+    <section id="home" class="py-5 text-center bg-light">
+        <div class="container">
+            <img src="img/minha-foto.jpg" class="rounded-circle mb-3" width="150">
+            <h1 class="fw-bold">Seu Nome Aqui</h1>
+            <p class="lead">Desenvolvedor Front-End | Estudante de Tecnologia</p>
+        </div>
+    </section>
+      
+              
+    <section id="projetos" class="py-5">
+        <div class="container">
+        <h2 class="text-center mb-4">Meus Projetos</h2>
 
-  <body>
-    <div class="container">
+        <div class="row g-4">
+              <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/projeto1.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto 1</h5>
+                            <p class="card-text">Descrição rápida do projeto.</p>
+                            <a href="#" class="btn btn-primary">Ver projeto</a>
+                        </div>
+                    </div>
+                </div>
 
+                
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/projeto2.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto 2</h5>
+                            <p class="card-text">Descrição rápida do projeto.</p>
+                            <a href="#" class="btn btn-primary">Ver projeto</a>
+                        </div>
+                    </div>
+                </div>
 
+                
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/projeto3.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto 3</h5>
+                            <p class="card-text">Descrição rápida do projeto.</p>
+                            <a href="#" class="btn btn-primary">Ver projeto</a>
+                        </div>
+                    </div>
+                </div>
 
-
+            </div>
+        </div>
+    </section>
 
         
-    </div>
+    <section id="contato" class="py-5 text-bg-dark">
+        <div class="container text-center">
+            <h2>Contato</h2>
+            <p>Email: <strong>seuemail@gmail.com</strong></p>
+        </div>
+    </section>
+    
+    
+     <footer class="py-3 bg-black text-white text-center">
+        <p>© 2025 - Seu Nome</p>
+    </footer>
 
 
 
