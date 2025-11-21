@@ -1,0 +1,29 @@
+img{
+    width: 100px;
+    height: 200px;
+}
+
+body{
+color: white;
+
+}
+
+.navbar{
+    background-color: white;
+}
+.bg-light{
+
+    background-color: var(--Dark-Garnet) !important;
+}
+.py-5{
+
+    background-color: black;
+}
+
+:root{
+        --cor-principal : #FF1053;
+        --cor-secundaria: #BFDBF7;
+        --violeta: #331832;
+        --Uva: #694D75;
+        --Dark-Garnet: #6B0504
+}
